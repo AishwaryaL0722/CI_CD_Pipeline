@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/AishwaryaL0722/CI_CD_Pipeline.git' branch: 'main'
+                git url: 'https://github.com/AishwaryaL0722/CI_CD_Pipeline.git', branch: 'main'
             }
         }
         stage('Build') {
